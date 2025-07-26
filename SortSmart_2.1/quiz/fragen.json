@@ -1,0 +1,1002 @@
+[{
+        "frage": "Wohin gehört eine leere Joghurtverpackung?",
+        "antworten": ["Restmüll", "Gelber Sack", "Biomüll", "Papiermüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was darf NICHT in die Biotonne?",
+        "antworten": ["Kaffeesatz", "Apfelschalen", "Plastikfolie", "Teebeutel"],
+        "lösung": "Plastikfolie"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Pizzakarton mit Fettflecken?",
+        "antworten": ["Papiermüll", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was passiert mit recyceltem Papier?",
+        "antworten": ["Es wird verbrannt", "Es wird zu neuen Zeitungen", "Es wird zu Plastik", "Es wird zu Kompost"],
+        "lösung": "Es wird zu neuen Zeitungen"
+    },
+    {
+        "frage": "Wohin gehört eine leere Chipsdose mit Metallboden?",
+        "antworten": ["Papiermüll", "Restmüll", "Gelber Sack", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Darf Katzenstreu in den Biomüll?",
+        "antworten": ["Ja, wenn es biologisch ist", "Nein", "Nur in kleinen Mengen", "Immer"],
+        "lösung": "Nein"
+    },
+    {
+        "frage": "Wohin gehört eine leere Zahnpastatube?",
+        "antworten": ["Gelber Sack", "Papiermüll", "Biomüll", "Restmüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was gehört in den Papiermüll?",
+        "antworten": ["Ein Tetrapack", "Ein Buch", "Ein Papiertaschentuch", "Ein Karton ohne Klebeband"],
+        "lösung": "Ein Karton ohne Klebeband"
+    },
+    {
+        "frage": "Wie entsorgt man einen kaputten Spiegel?",
+        "antworten": ["Restmüll", "Glascontainer", "Biomüll", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Getränkedosen", "Zeitungen", "Glasflaschen", "Kompostierbare Verpackungen"],
+        "lösung": "Getränkedosen"
+    },
+    {
+        "frage": "Wohin gehören abgelaufene Medikamente?",
+        "antworten": ["Gelber Sack", "Apotheke", "Restmüll", "Biomüll"],
+        "lösung": "Apotheke"
+    },
+    {
+        "frage": "Was gehört in den Glascontainer?",
+        "antworten": ["Fensterglas", "Spiegel", "Marmeladenglas", "Porzellantasse"],
+        "lösung": "Marmeladenglas"
+    },
+    {
+        "frage": "Wohin gehören benutzte Taschentücher?",
+        "antworten": ["Papiermüll", "Biomüll", "Gelber Sack", "Restmüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was passiert mit recycelten Getränkedosen?",
+        "antworten": ["Sie werden zu neuen Dosen", "Sie werden verbrannt", "Sie kommen auf eine Deponie", "Sie werden zu Glas verarbeitet"],
+        "lösung": "Sie werden zu neuen Dosen"
+    },
+    {
+        "frage": "Darf man Alufolie in den Gelben Sack geben?",
+        "antworten": ["Ja", "Nein", "Nur wenn sie sauber ist", "Nur wenn sie zerknüllt ist"],
+        "lösung": "Ja"
+    },
+    {
+        "frage": "Wo entsorgt man alte CDs?",
+        "antworten": ["Biomüll", "Papiermüll", "Wertstoffhof", "Gelber Sack"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört in den Biomüll?",
+        "antworten": ["Knochen", "Eierschalen", "Alte Kleidung", "Metallteile"],
+        "lösung": "Eierschalen"
+    },
+    {
+        "frage": "Was ist wichtig bei der Glasentsorgung?",
+        "antworten": ["Nicht nach Farben trennen", "Nur Weißglas verwenden", "Farbsortierung beachten", "Deckel dran lassen"],
+        "lösung": "Farbsortierung beachten"
+    },
+    {
+        "frage": "Was ist eine Wertstofftonne?",
+        "antworten": ["Tonne für Papier", "Tonne für Biomüll", "Tonne für recycelbare Materialien", "Tonne für Glas"],
+        "lösung": "Tonne für recycelbare Materialien"
+    },
+    {
+        "frage": "Was gehört NICHT in den Gelben Sack?",
+        "antworten": ["Joghurtbecher", "Metallverpackung", "Plastikspielzeug", "Tetrapack"],
+        "lösung": "Plastikspielzeug"
+    },
+    {
+        "frage": "Was darf in den Papiermüll?",
+        "antworten": ["Bücher mit Hardcover", "Verpackungspapier", "Altkleider", "Plastikdokumentenhüllen"],
+        "lösung": "Verpackungspapier"
+    },
+    {
+        "frage": "Wie entsorgt man Energiesparlampen?",
+        "antworten": ["Restmüll", "Gelber Sack", "Sondermüllstelle", "Biomüll"],
+        "lösung": "Sondermüllstelle"
+    },
+    {
+        "frage": "Was gehört in den Restmüll?",
+        "antworten": ["Kaputte Tasse", "Plastikdeckel", "Papierverpackung", "Kaffeefilter"],
+        "lösung": "Kaputte Tasse"
+    },
+    {
+        "frage": "Welche Müllart ist kompostierbar?",
+        "antworten": ["Papier", "Plastik", "Bioabfall", "Glas"],
+        "lösung": "Bioabfall"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Milchkarton?",
+        "antworten": ["Papiermüll", "Biomüll", "Gelber Sack", "Restmüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Darf man kompostierbare Plastiktüten in den Biomüll werfen?",
+        "antworten": ["Ja, immer", "Nein", "Nur wenn sie zertifiziert sind", "Nur wenn sie durchsichtig sind"],
+        "lösung": "Nur wenn sie zertifiziert sind"
+    },
+    {
+        "frage": "Wie entsorgt man kaputte Trinkgläser?",
+        "antworten": ["Glascontainer", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was gehört in den Glascontainer?",
+        "antworten": ["Marmeladenglas", "Fensterglas", "Spiegel", "Porzellan"],
+        "lösung": "Marmeladenglas"
+    },
+    {
+        "frage": "Wohin gehört eine benutzte Aluschale?",
+        "antworten": ["Gelber Sack", "Restmüll", "Papiermüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was gehört nicht in die Biotonne?",
+        "antworten": ["Gemüseschalen", "Papierhandtücher", "Plastikverpackung", "Teebeutel"],
+        "lösung": "Plastikverpackung"
+    },
+    {
+        "frage": "Was ist mit beschichtetem Geschenkpapier?",
+        "antworten": ["Papiermüll", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wie entsorgt man eine alte Pfanne?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Gelber Sack", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört in die Wertstofftonne?",
+        "antworten": ["Karton", "Plastikverpackung", "Kleidung", "Glasflaschen"],
+        "lösung": "Plastikverpackung"
+    },
+    {
+        "frage": "Wie entsorgt man einen kaputten Besen?",
+        "antworten": ["Restmüll", "Biomüll", "Gelber Sack", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was passiert mit Altpapier?",
+        "antworten": ["Es wird kompostiert", "Es wird verbrannt", "Es wird recycelt", "Es wird vergraben"],
+        "lösung": "Es wird recycelt"
+    },
+    {
+        "frage": "Wohin gehören Lebensmittel in Verpackung?",
+        "antworten": ["Biomüll", "Restmüll", "Gelber Sack", "Lebensmittel müssen vorher getrennt werden"],
+        "lösung": "Lebensmittel müssen vorher getrennt werden"
+    },
+    {
+        "frage": "Was gehört NICHT in den Restmüll?",
+        "antworten": ["Windeln", "Glasflasche", "Keramik", "Staubsaugerbeutel"],
+        "lösung": "Glasflasche"
+    },
+    {
+        "frage": "Wie entsorgt man alte Kleidung?",
+        "antworten": ["Restmüll", "Biomüll", "Altkleidercontainer", "Gelber Sack"],
+        "lösung": "Altkleidercontainer"
+    },
+    {
+        "frage": "Was gehört in den Papiermüll?",
+        "antworten": ["Zeitungen", "Plastikfolie", "Karton mit Essensresten", "Metallverpackung"],
+        "lösung": "Zeitungen"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Plastikverpackungen", "Essensreste", "Papier", "Keramik"],
+        "lösung": "Plastikverpackungen"
+    },
+    {
+        "frage": "Darf man Glühbirnen im Gelben Sack entsorgen?",
+        "antworten": ["Ja", "Nein", "Nur LED", "Nur Energiesparlampen"],
+        "lösung": "Nein"
+    },
+    {
+        "frage": "Was passiert mit Altglas?",
+        "antworten": ["Es wird verbrannt", "Es wird neu eingeschmolzen", "Es wird zerkleinert und vergraben", "Es wird zu Aluminium"],
+        "lösung": "Es wird neu eingeschmolzen"
+    },
+    {
+        "frage": "Was gehört NICHT in die Wertstofftonne?",
+        "antworten": ["Plastikflasche", "Konservendose", "Papierhandtuch", "Joghurtbecher"],
+        "lösung": "Papierhandtuch"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Farbbehälter?",
+        "antworten": ["Restmüll", "Sondermüll", "Gelber Sack", "Papiermüll"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Wie entsorgt man Druckerpatronen?",
+        "antworten": ["Restmüll", "Gelber Sack", "Recyclinghof", "Papiermüll"],
+        "lösung": "Recyclinghof"
+    },
+    {
+        "frage": "Was ist der beste Weg, alte Medikamente zu entsorgen?",
+        "antworten": ["Restmüll", "Gelber Sack", "Apotheke", "Biomüll"],
+        "lösung": "Apotheke"
+    },
+    {
+        "frage": "Was gehört in den Restmüll?",
+        "antworten": ["Knochenreste", "Plastikverpackungen", "Papiermüll", "Glasflasche"],
+        "lösung": "Knochenreste"
+    },
+    {
+        "frage": "Was ist ein Entsorgungshof?",
+        "antworten": ["Ein Markt für Müll", "Ein Ort zur Mülltrennung", "Eine Deponie", "Ein zentraler Sammelplatz für Sondermüll"],
+        "lösung": "Ein zentraler Sammelplatz für Sondermüll"
+    },
+    {
+        "frage": "Was passiert mit Biomüll nach der Entsorgung?",
+        "antworten": ["Er wird verbrannt", "Er wird kompostiert", "Er wird ins Meer gekippt", "Er wird recycelt zu Metall"],
+        "lösung": "Er wird kompostiert"
+    },
+    {
+        "frage": "Was gehört NICHT in den Papiermüll?",
+        "antworten": ["Werbeblätter", "Pappschachteln", "Ein benutztes Taschentuch", "Zeitschriften"],
+        "lösung": "Ein benutztes Taschentuch"
+    },
+    {
+        "frage": "Wohin gehört eine beschädigte Trinkflasche aus Plastik?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was ist eine Sammelstelle?",
+        "antworten": ["Ein Recyclinghof", "Ein Ort zur Kompostierung", "Ein Verkaufsort für Müllsäcke", "Eine Deponie für Biomüll"],
+        "lösung": "Ein Recyclinghof"
+    },
+    {
+        "frage": "Was passiert mit Metallverpackungen im Gelben Sack?",
+        "antworten": ["Sie werden verbrannt", "Sie werden recycelt", "Sie werden zerkleinert und vergraben", "Sie werden zu Papier verarbeitet"],
+        "lösung": "Sie werden recycelt"
+    },
+    {
+        "frage": "Was gehört in den Glascontainer?",
+        "antworten": ["Weißglas", "Spiegel", "Fensterglas", "Porzellan"],
+        "lösung": "Weißglas"
+    },
+    {
+        "frage": "Darf man Holzabfälle im Biomüll entsorgen?",
+        "antworten": ["Ja", "Nein", "Nur unbehandeltes Holz", "Nur mit Genehmigung"],
+        "lösung": "Nur unbehandeltes Holz"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Ein Joghurtdeckel aus Aluminium", "Zeitungspapier", "Altkleider", "Zahnbürste"],
+        "lösung": "Ein Joghurtdeckel aus Aluminium"
+    },
+    {
+        "frage": "Wohin mit alten Elektrogeräten?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Biomüll", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört in den Papiermüll?",
+        "antworten": ["Geschenkpapier", "Karton", "Papier mit Klebeband", "Plastikfolie"],
+        "lösung": "Karton"
+    },
+    {
+        "frage": "Wie entsorgt man eine alte Matratze?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Papiermüll", "Biomüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört in den Biomüll?",
+        "antworten": ["Gemüseschalen", "Glasscherben", "Altpapier", "Plastikdeckel"],
+        "lösung": "Gemüseschalen"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Deo-Spray ohne Pfandsymbol?",
+        "antworten": ["Gelber Sack", "Biomüll", "Papiermüll", "Restmüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was darf nicht in den Gelben Sack?",
+        "antworten": ["Kunststoffverpackung", "Plastikspielzeug", "Konservendose", "Alufolie"],
+        "lösung": "Plastikspielzeug"
+    },
+    {
+        "frage": "Wie entsorgt man ein kaputtes Smartphone?",
+        "antworten": ["Restmüll", "Gelber Sack", "Recyclinghof", "Biomüll"],
+        "lösung": "Recyclinghof"
+    },
+    {
+        "frage": "Was passiert mit Bioabfall nach der Kompostierung?",
+        "antworten": ["Er wird zu Dünger", "Er wird verbrannt", "Er wird zu Glas", "Er wird vergraben"],
+        "lösung": "Er wird zu Dünger"
+    },
+    {
+        "frage": "Was gehört NICHT in den Glascontainer?",
+        "antworten": ["Weißglas", "Fensterglas", "Braunglas", "Grünglas"],
+        "lösung": "Fensterglas"
+    },
+    {
+        "frage": "Darf man benutzte Windeln in den Biomüll werfen?",
+        "antworten": ["Ja", "Nein", "Nur Bio-Windeln", "Nur mit Zustimmung der Müllabfuhr"],
+        "lösung": "Nein"
+    },
+    {
+        "frage": "Was gehört in die Papiertonne?",
+        "antworten": ["Karton", "Plastiktüte", "Glasscherben", "Kleidung"],
+        "lösung": "Karton"
+    },
+    {
+        "frage": "Wie sollte man Metallverpackungen entsorgen?",
+        "antworten": ["Gelber Sack", "Restmüll", "Biomüll", "Papiermüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was passiert mit gesammeltem Altglas?",
+        "antworten": ["Es wird verbrannt", "Es wird eingeschmolzen", "Es wird auf die Deponie gebracht", "Es wird zu Papier verarbeitet"],
+        "lösung": "Es wird eingeschmolzen"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Lackbehälter?",
+        "antworten": ["Gelber Sack", "Papiermüll", "Sondermüll", "Biomüll"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Was gehört in den Restmüll?",
+        "antworten": ["Katzenstreu", "Joghurtbecher", "Konservendose", "Karton"],
+        "lösung": "Katzenstreu"
+    },
+    {
+        "frage": "Wie wird Verpackungsmüll getrennt?",
+        "antworten": ["Nach Farbe", "Nach Materialart", "Nach Gewicht", "Gar nicht"],
+        "lösung": "Nach Materialart"
+    },
+    {
+        "frage": "Wohin mit benutzten Papiertaschentüchern?",
+        "antworten": ["Papiermüll", "Biomüll", "Restmüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was gehört nicht in den Biomüll?",
+        "antworten": ["Teebeutel", "Obstschalen", "Plastikgabel", "Eierschalen"],
+        "lösung": "Plastikgabel"
+    },
+    {
+        "frage": "Wie entsorgt man einen defekten Wasserkocher?",
+        "antworten": ["Papiermüll", "Biomüll", "Wertstoffhof", "Gelber Sack"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört in die Blaue Tonne?",
+        "antworten": ["Zeitungen", "Plastiktüten", "Glasscherben", "Metallteile"],
+        "lösung": "Zeitungen"
+    },
+    {
+        "frage": "Wie entsorgt man einen leeren Marmeladenglas?",
+        "antworten": ["Biomüll", "Papiermüll", "Glascontainer", "Restmüll"],
+        "lösung": "Glascontainer"
+    },
+    {
+        "frage": "Was passiert mit recyceltem Kunststoff?",
+        "antworten": ["Er wird zu neuen Kunststoffprodukten", "Er wird verbrannt", "Er wird zu Holz umgewandelt", "Er wird vergraben"],
+        "lösung": "Er wird zu neuen Kunststoffprodukten"
+    },
+    {
+        "frage": "Was gehört NICHT in die Papiertonne?",
+        "antworten": ["Pizzakarton mit Essensresten", "Briefpapier", "Zeitungen", "Karton"],
+        "lösung": "Pizzakarton mit Essensresten"
+    },
+    {
+        "frage": "Wie sollte man Altpapier lagern?",
+        "antworten": ["Feucht", "Unsortiert", "Trocken und sauber", "Mit Plastik"],
+        "lösung": "Trocken und sauber"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Tetrapack", "Glasscherben", "Papiermüll", "Bioabfall"],
+        "lösung": "Tetrapack"
+    },
+    {
+        "frage": "Darf man Küchenabfälle in die Biotonne geben?",
+        "antworten": ["Ja", "Nein", "Nur wenn sie gekocht sind", "Nur roh"],
+        "lösung": "Ja"
+    },
+    {
+        "frage": "Was gehört NICHT in den Restmüll?",
+        "antworten": ["Windeln", "Altkleider", "Batterien", "Keramik"],
+        "lösung": "Batterien"
+    },
+    {
+        "frage": "Was passiert mit recycelten Metallen?",
+        "antworten": ["Sie werden zu Kompost", "Sie werden eingeschmolzen", "Sie werden verbrannt", "Sie werden zu Papier"],
+        "lösung": "Sie werden eingeschmolzen"
+    },
+    {
+        "frage": "Wie wird Biogut verwertet?",
+        "antworten": ["Verbrannt", "Kompostiert", "Vergraben", "Zerkleinert"],
+        "lösung": "Kompostiert"
+    },
+    {
+        "frage": "Wie entsorgt man einen alten Fernseher?",
+        "antworten": ["Gelber Sack", "Restmüll", "Wertstoffhof", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Sahnebecher?",
+        "antworten": ["Biomüll", "Gelber Sack", "Papiermüll", "Restmüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was passiert mit Biomüll in Kompostieranlagen?",
+        "antworten": ["Er wird zu Glas", "Er wird verbrannt", "Er wird zu Kompost", "Er wird zu Kunststoff"],
+        "lösung": "Er wird zu Kompost"
+    },
+    {
+        "frage": "Wie entsorgt man eine leere Zahnpasta-Verpackung aus Aluminium-Verbundmaterial?",
+        "antworten": ["Restmüll", "Gelber Sack", "Wertstoffhof", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Darf man biologisch abbaubares Einweggeschirr aus Palmblatt in den Biomüll werfen?",
+        "antworten": ["Ja", "Nein", "Nur wenn kompostierbar zertifiziert", "Nur in kleinen Mengen"],
+        "lösung": "Nur wenn kompostierbar zertifiziert"
+    },
+    {
+        "frage": "Wie wird sogenanntes schwarzes Plastik (z. B. Grillschalen) typischerweise recycelt?",
+        "antworten": ["Gar nicht, wird verbrannt", "Farberkennung ermöglicht Recycling", "Wird kompostiert", "Wird zu Glas verarbeitet"],
+        "lösung": "Gar nicht, wird verbrannt"
+    },
+    {
+        "frage": "Wohin mit alten Rauchmeldern?",
+        "antworten": ["Restmüll", "Sondermüll", "Wertstoffhof", "Gelber Sack"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Darf Backpapier in den Papiermüll?",
+        "antworten": ["Ja", "Nein", "Nur wenn unbenutzt", "Nur wenn biologisch abbaubar"],
+        "lösung": "Nein"
+    },
+    {
+        "frage": "Was ist ein Recycling-Code mit der Zahl '7'?",
+        "antworten": ["PVC", "PET", "Sonstige Kunststoffe", "Polystyrol"],
+        "lösung": "Sonstige Kunststoffe"
+    },
+    {
+        "frage": "Welche Entsorgung ist für gebrauchte Ölfilter aus Autos vorgeschrieben?",
+        "antworten": ["Wertstoffhof", "Restmüll", "Gelber Sack", "Biomüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was passiert mit Alttextilien, die nicht mehr tragbar sind?",
+        "antworten": ["Sie werden kompostiert", "Sie werden verbrannt", "Sie werden zu Dämmstoffen verarbeitet", "Sie werden im Gelben Sack gesammelt"],
+        "lösung": "Sie werden zu Dämmstoffen verarbeitet"
+    },
+    {
+        "frage": "Was ist bei der Entsorgung von Medikamentenfläschchen mit Restinhalten zu beachten?",
+        "antworten": ["Deckel entfernen", "Über Apotheke entsorgen", "Flüssigkeit in den Abfluss geben", "Restmüll verwenden"],
+        "lösung": "Über Apotheke entsorgen"
+    },
+    {
+        "frage": "Was gehört in die Entsorgung bei leeren Spraydosen mit Treibgasresten?",
+        "antworten": ["Gelber Sack", "Sondermüll", "Restmüll", "Wertstoffhof"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Darf man Glasflaschen mit Metallverschluss in den Glascontainer geben?",
+        "antworten": ["Ja, mit Verschluss", "Nein", "Nur geöffnet", "Nur mit Metall im Gelben Sack"],
+        "lösung": "Ja, mit Verschluss"
+    },
+    {
+        "frage": "Was passiert mit recyceltem Polystyrol aus Verpackungen?",
+        "antworten": ["Es wird zu Glas verarbeitet", "Es wird zu neuen Verpackungen", "Es wird zu Dämmstoffen", "Es wird verbrannt"],
+        "lösung": "Es wird zu Dämmstoffen"
+    },
+    {
+        "frage": "Wohin mit leerem Kaffeesatzfilter mit Papieranteil?",
+        "antworten": ["Gelber Sack", "Restmüll", "Biomüll", "Papiermüll"],
+        "lösung": "Biomüll"
+    },
+    {
+        "frage": "Was passiert mit biologisch abbaubaren Kunststoffen in Kompostieranlagen?",
+        "antworten": ["Werden vollständig verwertet", "Werden oft aussortiert", "Werden zu Papier", "Werden zu Metall"],
+        "lösung": "Werden oft aussortiert"
+    },
+    {
+        "frage": "Was gehört in die Entsorgung bei LED-Leuchtmitteln?",
+        "antworten": ["Restmüll", "Gelber Sack", "Wertstoffhof", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Wie werden Getränkekartons (Tetrapack) korrekt recycelt?",
+        "antworten": ["Im Papiermüll", "Gelber Sack", "Sondermüll", "Restmüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Welche Müllart erzeugt den höchsten Energiebedarf bei Recycling?",
+        "antworten": ["Glas", "Metall", "Papier", "Kunststoff"],
+        "lösung": "Metall"
+    },
+    {
+        "frage": "Wie sollte eine Komposttonne im Sommer gepflegt werden?",
+        "antworten": ["Immer verschlossen", "Geöffnet lagern", "Mit Wasser auffüllen", "Mit Zeitungspapier auskleiden"],
+        "lösung": "Mit Zeitungspapier auskleiden"
+    },
+    {
+        "frage": "Was passiert mit Keramik im Restmüll?",
+        "antworten": ["Wird verbrannt", "Kompostiert", "Vergraben", "Zur Baustoffverwertung"],
+        "lösung": "Zur Baustoffverwertung"
+    },
+    {
+        "frage": "Was ist das Problem bei Pizza-Karton mit Fettflecken im Altpapier?",
+        "antworten": ["Fett stört Recyclingprozess", "Papier wird kompostiert", "Geruchsentwicklung", "Keine Verwertbarkeit"],
+        "lösung": "Fett stört Recyclingprozess"
+    },
+    {
+        "frage": "Was passiert mit Kunststoffen, die eine Carbonfaserverstärkung enthalten?",
+        "antworten": ["Werden recycelt", "Müssen als Sondermüll entsorgt werden", "Können kompostiert werden", "Dürfen in den Gelben Sack"],
+        "lösung": "Müssen als Sondermüll entsorgt werden"
+    },
+    {
+        "frage": "Was bedeutet der Recyclingcode '22 PAP' auf einer Verpackung?",
+        "antworten": ["Polyamid", "Wellpappe", "Karton", "Mehrschichtpapier"],
+        "lösung": "Wellpappe"
+    },
+    {
+        "frage": "Wie werden Lithium-Ionen-Akkus fachgerecht entsorgt?",
+        "antworten": ["Gelber Sack", "Restmüll", "Sondermüllstelle", "Papiermüll"],
+        "lösung": "Sondermüllstelle"
+    },
+    {
+        "frage": "Welche Gefahr besteht bei falscher Entsorgung von Energiesparlampen?",
+        "antworten": ["Stromausfall", "Glasbruch", "Quecksilberfreisetzung", "Wärmeentwicklung"],
+        "lösung": "Quecksilberfreisetzung"
+    },
+    {
+        "frage": "Wie wird Mehrschicht-Verbundmaterial (z. B. Chipsverpackung) klassifiziert?",
+        "antworten": ["Papiermüll", "Restmüll", "Gelber Sack", "Sondermüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was passiert mit inkorrekt sortiertem Bioabfall?",
+        "antworten": ["Er wird verbrannt", "Er wird aussortiert", "Er bleibt im Kompost", "Er wird als Restmüll verwertet"],
+        "lösung": "Er wird aussortiert"
+    },
+    {
+        "frage": "Warum ist Styropor aus Bauanwendungen nicht recyclingfähig?",
+        "antworten": ["Wegen Brandschutzbeschichtung", "Wegen Mikroplastik", "Wegen Farbe", "Weil es biologisch ist"],
+        "lösung": "Wegen Brandschutzbeschichtung"
+    },
+    {
+        "frage": "Was bedeutet 'LVP' bei der Mülltrennung?",
+        "antworten": ["Luftverpackte Produkte", "Leichtverpackungen", "Lösungsverpackungen", "Langfristig verwendbarer Plastik"],
+        "lösung": "Leichtverpackungen"
+    },
+    {
+        "frage": "Wohin mit einer alten Autobatterie?",
+        "antworten": ["Restmüll", "Gelber Sack", "Rücknahmestelle beim Händler", "Biomüll"],
+        "lösung": "Rücknahmestelle beim Händler"
+    },
+    {
+        "frage": "Was sind die Herausforderungen bei der Trennung von Verbundkartons?",
+        "antworten": ["Verschiedene Materialien schwer trennbar", "Zu dünn für Recycling", "Verunreinigung durch Lebensmittel", "Fehlende Farbekennung"],
+        "lösung": "Verschiedene Materialien schwer trennbar"
+    },
+    {
+        "frage": "Wie kann schwarzer Kunststoff besser erkannt werden im Recycling?",
+        "antworten": ["Durch Infrarotmarkierung", "Durch manuelle Sortierung", "Durch Magnetisierung", "Durch Chlorzusatz"],
+        "lösung": "Durch Infrarotmarkierung"
+    },
+    {
+        "frage": "Was gehört in den Sondermüll?",
+        "antworten": ["Kochgeschirr", "Alte Farbreste", "Plastikbecher", "Glasscherben"],
+        "lösung": "Alte Farbreste"
+    },
+    {
+        "frage": "Wie werden Kartons mit Aluminiuminnenseite behandelt?",
+        "antworten": ["Papiermüll", "Restmüll", "Gelber Sack", "Sondermüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was ist die Besonderheit von Bioplastik beim Recycling?",
+        "antworten": ["Es kann chemisch recycelt werden", "Es wird meist verbrannt", "Es ist nicht biologisch abbaubar", "Es kann mit Glas vermischt werden"],
+        "lösung": "Es wird meist verbrannt"
+    },
+    {
+        "frage": "Warum ist Fensterglas nicht für Glascontainer geeignet?",
+        "antworten": ["Weil es zu dick ist", "Weil es eine andere Schmelztemperatur hat", "Weil es zu zerbrechlich ist", "Weil es beschichtet ist"],
+        "lösung": "Weil es eine andere Schmelztemperatur hat"
+    },
+    {
+        "frage": "Was ist bei der Entsorgung von Laborchemikalien zu beachten?",
+        "antworten": ["Nicht mischen", "Mit Wasser verdünnen", "In den Restmüll geben", "Zur Apotheke bringen"],
+        "lösung": "Nicht mischen"
+    },
+    {
+        "frage": "Welche Fraktion ist bei Mülltrennung die komplexeste?",
+        "antworten": ["Bioabfall", "Glas", "Verbundstoffe", "Metallverpackung"],
+        "lösung": "Verbundstoffe"
+    },
+    {
+        "frage": "Wozu wird Alttextilfasermaterial in der Industrie verwendet?",
+        "antworten": ["Als Verpackungsmaterial", "Zur Herstellung von Dämmstoffen", "Zur Stromerzeugung", "Zur Glasherstellung"],
+        "lösung": "Zur Herstellung von Dämmstoffen"
+    },
+    {
+        "frage": "Welche Farben sortiert man beim Glascontainer typischerweise?",
+        "antworten": ["Rot, Gelb, Blau", "Weiß, Grün, Braun", "Schwarz, Weiß, Silber", "Klar, Hellgrün, Dunkelgrün"],
+        "lösung": "Weiß, Grün, Braun"
+    },
+    {
+        "frage": "Wie werden Mikrowellenschalen aus schwarzem Kunststoff meist entsorgt?",
+        "antworten": ["Gelber Sack", "Sondermüll", "Restmüll", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was gilt bei der Entsorgung von medizinischen Spritzen?",
+        "antworten": ["Gelber Sack", "Restmüll", "Apotheken oder Sammelstellen", "Biomüll"],
+        "lösung": "Apotheken oder Sammelstellen"
+    },
+    {
+        "frage": "Was ist das Problem bei der Entsorgung von Kaffeekapseln?",
+        "antworten": ["Verbundmaterial schwer trennbar", "Sie sind biologisch", "Sie enthalten Glas", "Zu leicht fürs Sortierband"],
+        "lösung": "Verbundmaterial schwer trennbar"
+    },
+    {
+        "frage": "Was ist Downcycling im Kontext von Recycling?",
+        "antworten": ["Ein Upgrade der Stoffqualität", "Verwendung für minderwertige Produkte", "Kompostierung", "Verbrennung zur Energiegewinnung"],
+        "lösung": "Verwendung für minderwertige Produkte"
+    },
+    {
+        "frage": "Wie werden PET-Flaschen optimal recycelt?",
+        "antworten": ["Deckel abnehmen und flach drücken", "Ganz lassen", "Mit Flüssigkeit befüllt", "In Glascontainer geben"],
+        "lösung": "Deckel abnehmen und flach drücken"
+    },
+    {
+        "frage": "Welche Müllfraktion enthält typischerweise hohe Schadstoffmengen?",
+        "antworten": ["Bioabfall", "Papiermüll", "Sondermüll", "Gelber Sack"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Was ist ein Sammelzeichen für Glasverpackungen?",
+        "antworten": ["Das grüne Band", "Der Recyclingkreis", "Die Glasflasche mit Pfeil", "Das PET-Logo"],
+        "lösung": "Die Glasflasche mit Pfeil"
+    },
+    {
+        "frage": "Welche Sorte Metall ist besonders wertvoll beim Recycling?",
+        "antworten": ["Eisen", "Kupfer", "Zink", "Blei"],
+        "lösung": "Kupfer"
+    },
+    {
+        "frage": "Wie erkennt man eine kompostierbare Plastiktüte?",
+        "antworten": ["Sie fühlt sich weich an", "Sie trägt ein OK-Kompost-Logo", "Sie riecht süßlich", "Sie ist schwarz"],
+        "lösung": "Sie trägt ein OK-Kompost-Logo"
+    },
+    {
+        "frage": "Was ist der Unterschied zwischen Recycling und energetischer Verwertung?",
+        "antworten": ["Recycling erzeugt Strom", "Energetische Verwertung bedeutet Verbrennen", "Beides meint Kompostierung", "Recycling ist nur für Papier"],
+        "lösung": "Energetische Verwertung bedeutet Verbrennen"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Leere Joghurtbecher", "Zahnbürsten", "Glasflaschen", "Pizzakarton mit Käseresten"],
+        "lösung": "Leere Joghurtbecher"
+    },
+    {
+        "frage": "Was gehört NICHT in den Papiermüll?",
+        "antworten": ["Zeitungen", "Benutzte Servietten", "Karton", "Briefumschläge ohne Fenster"],
+        "lösung": "Benutzte Servietten"
+    },
+    {
+        "frage": "Wie entsorgt man Keramikgeschirr?",
+        "antworten": ["Biomüll", "Restmüll", "Glascontainer", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was muss vor der Entsorgung im Glascontainer entfernt werden?",
+        "antworten": ["Etiketten", "Deckel aus Metall oder Plastik", "Barcode", "Farbfolie"],
+        "lösung": "Deckel aus Metall oder Plastik"
+    },
+    {
+        "frage": "Was passiert mit gesammeltem Bioabfall?",
+        "antworten": ["Er wird kompostiert", "Er wird verbrannt", "Er wird recycelt zu Plastik", "Er wird als Restmüll behandelt"],
+        "lösung": "Er wird kompostiert"
+    },
+    {
+        "frage": "Welche Farbe hat die Tonne für Papiermüll typischerweise?",
+        "antworten": ["Blau", "Braun", "Gelb", "Grün"],
+        "lösung": "Blau"
+    },
+    {
+        "frage": "Was gehört in den Restmüll?",
+        "antworten": ["Zahnbürsten", "Eierschalen", "Milchkartons", "Plastikdeckel"],
+        "lösung": "Zahnbürsten"
+    },
+    {
+        "frage": "Wohin gehören leere Konservendosen?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was gehört nicht in den Glascontainer?",
+        "antworten": ["Braunglas", "Grünglas", "Fensterglas", "Weißglas"],
+        "lösung": "Fensterglas"
+    },
+    {
+        "frage": "Wie wird Altglas getrennt?",
+        "antworten": ["Nach Materialdicke", "Nach Farbe", "Nach Herkunftsland", "Nach Gewicht"],
+        "lösung": "Nach Farbe"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Milchkarton?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Wie sollte man eine PET-Flasche entsorgen?",
+        "antworten": ["Mit Deckel und Etikett", "Flachgedrückt ohne Deckel", "Zerkleinert im Biomüll", "In der blauen Tonne"],
+        "lösung": "Flachgedrückt ohne Deckel"
+    },
+    {
+        "frage": "Was darf in die Biotonne?",
+        "antworten": ["Knochen", "Gemüseschalen", "Plastikbecher", "Glasscherben"],
+        "lösung": "Gemüseschalen"
+    },
+    {
+        "frage": "Was darf NICHT in die Gelbe Tonne?",
+        "antworten": ["Alufolie", "Plastikverpackung", "Eimer", "Joghurtdeckel"],
+        "lösung": "Eimer"
+    },
+    {
+        "frage": "Wie entsorgt man alte Batterien?",
+        "antworten": ["Gelber Sack", "Apotheke", "Sammelboxen", "Restmüll"],
+        "lösung": "Sammelboxen"
+    },
+    {
+        "frage": "Was passiert mit Papier im Recyclingprozess?",
+        "antworten": ["Es wird gebleicht und verbrannt", "Es wird zu neuen Papierprodukten", "Es wird zu Bioabfall", "Es wird zur Stromerzeugung genutzt"],
+        "lösung": "Es wird zu neuen Papierprodukten"
+    },
+    {
+        "frage": "Darf ein benutztes Taschentuch ins Altpapier?",
+        "antworten": ["Ja", "Nein", "Nur wenn trocken", "Nur wenn ungebleicht"],
+        "lösung": "Nein"
+    },
+    {
+        "frage": "Was gehört in den Gelben Sack?",
+        "antworten": ["Joghurtbecher", "Metallwerkzeug", "Textilien", "Fensterglas"],
+        "lösung": "Joghurtbecher"
+    },
+    {
+        "frage": "Wohin mit einem kaputten Besen?",
+        "antworten": ["Papiermüll", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Welche Art von Müll wird im Glascontainer gesammelt?",
+        "antworten": ["Nur Glasflaschen", "Glasverpackungen", "Fensterglas", "Spiegelglas"],
+        "lösung": "Glasverpackungen"
+    },
+    {
+        "frage": "Was gehört nicht in die Biomülltonne?",
+        "antworten": ["Eierschalen", "Plastiktüte", "Gemüsereste", "Teebeutel"],
+        "lösung": "Plastiktüte"
+    },
+    {
+        "frage": "Was passiert mit Metallverpackungen im Gelben Sack?",
+        "antworten": ["Sie werden recycelt", "Sie werden verbrannt", "Sie werden kompostiert", "Sie werden zerkleinert und auf Deponien gelagert"],
+        "lösung": "Sie werden recycelt"
+    },
+    {
+        "frage": "Was bedeutet der grüne Punkt auf Verpackungen?",
+        "antworten": ["Verpackung ist biologisch", "Pfandpflichtig", "Teilnahme am dualen System", "Recycelt"],
+        "lösung": "Teilnahme am dualen System"
+    },
+    {
+        "frage": "Was gehört NICHT in die blaue Tonne?",
+        "antworten": ["Pappkarton", "Zeitschriften", "Plastikfolie", "Papier"],
+        "lösung": "Plastikfolie"
+    },
+    {
+        "frage": "Was passiert mit biologisch abbaubaren Plastiktüten in der Biotonne?",
+        "antworten": ["Sie werden kompostiert", "Sie werden aussortiert", "Sie werden recycelt", "Sie kommen in die Gelbe Tonne"],
+        "lösung": "Sie werden aussortiert"
+    },
+    {
+        "frage": "Was sollte man mit Elektroschrott machen?",
+        "antworten": ["In den Restmüll geben", "Zum Wertstoffhof bringen", "In Gelber Sack", "Vergraben"],
+        "lösung": "Zum Wertstoffhof bringen"
+    },
+    {
+        "frage": "Was gehört in den Restmüll?",
+        "antworten": ["Zahnbürste", "Milchflasche", "Zeitung", "Plastikverpackung"],
+        "lösung": "Zahnbürste"
+    },
+    {
+        "frage": "Wie wird Glas im Container sortiert?",
+        "antworten": ["Nach Inhalt", "Nach Farbe", "Nach Form", "Nach Herkunft"],
+        "lösung": "Nach Farbe"
+    },
+    {
+        "frage": "Was passiert mit Bioabfall in Kompostieranlagen?",
+        "antworten": ["Er wird verbrannt", "Er wird zerkleinert", "Er wird zu Komposterde", "Er wird verpackt"],
+        "lösung": "Er wird zu Komposterde"
+    },
+    {
+        "frage": "Was gehört in die Wertstofftonne?",
+        "antworten": ["Metallverpackung", "Fensterglas", "Plastikspielzeug", "Papier"],
+        "lösung": "Metallverpackung"
+    },
+    {
+        "frage": "Wie erkennt man recycelbare Kunststoffverpackungen?",
+        "antworten": ["An Farbe", "Am Materialcode", "Am Gewicht", "An der Größe"],
+        "lösung": "Am Materialcode"
+    },
+    {
+        "frage": "Was bedeutet der Recyclingcode '01 PET'?",
+        "antworten": ["Papier", "Polyethylen", "Polyethylenterephthalat", "Metall"],
+        "lösung": "Polyethylenterephthalat"
+    },
+    {
+        "frage": "Was ist Downcycling?",
+        "antworten": ["Recycling auf höheres Niveau", "Energieverwertung", "Rückführung in Kompost", "Verwertung zu minderwertigen Produkten"],
+        "lösung": "Verwertung zu minderwertigen Produkten"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Tetrapak?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Darf man kompostierbare Biomülltüten in die Biotonne geben?",
+        "antworten": ["Ja, immer", "Nein, nie", "Nur wenn zertifiziert", "Nur im Winter"],
+        "lösung": "Nur wenn zertifiziert"
+    },
+    {
+        "frage": "Welche Farbe hat der Deckel beim Papiercontainer?",
+        "antworten": ["Gelb", "Blau", "Grün", "Braun"],
+        "lösung": "Blau"
+    },
+    {
+        "frage": "Wohin gehören benutzte Papiertaschentücher ohne sichtbare Verschmutzung?",
+        "antworten": ["Papiermüll", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wohin gehört ein kaputter Regenschirm mit Metallgestänge?",
+        "antworten": ["Wertstoffhof", "Gelber Sack", "Restmüll", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Was muss man vor dem Einwurf in den Glascontainer von Glasflaschen entfernen?",
+        "antworten": ["Etiketten", "Deckel", "Flaschenhals", "Barcode-Aufkleber"],
+        "lösung": "Deckel"
+    },
+    {
+        "frage": "Wie entsorgt man leere Spraydosen mit Farbresten?",
+        "antworten": ["Gelber Sack", "Restmüll", "Sondermüll", "Wertstoffhof"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Wohin gehört benutztes Küchenpapier mit Fettflecken?",
+        "antworten": ["Biomüll", "Restmüll", "Papiermüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wohin gehören alte Computerkabel?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Gelber Sack", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Wohin gehört ein leerer Joghurtbecher aus Kunststoff?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Was passiert mit kompostierbarem Plastik im Gelben Sack?",
+        "antworten": ["Es wird recycelt", "Es wird energetisch verwertet", "Es wird kompostiert", "Es wird aussortiert"],
+        "lösung": "Es wird aussortiert"
+    },
+    {
+        "frage": "Wohin gehört eine Styropornormschale von Eiern?",
+        "antworten": ["Gelber Sack", "Papiermüll", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Wohin gehören gebrauchte Windeln?",
+        "antworten": ["Biomüll", "Restmüll", "Gelber Sack", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wohin gehört ein Glasbehälter mit Schraubverschluss?",
+        "antworten": ["Glascontainer", "Gelber Sack", "Restmüll", "Papiermüll"],
+        "lösung": "Glascontainer"
+    },
+    {
+        "frage": "Wie bereitet man PET-Flaschen für das Recycling vor?",
+        "antworten": ["Deckel abnehmen und ausspülen", "Deckel dranlassen und ungespült einwerfen", "Zerdrücken ohne Ausspülen", "In Papier einwickeln"],
+        "lösung": "Deckel abnehmen und ausspülen"
+    },
+    {
+        "frage": "Wohin gehören gebrauchte Teebeutel?",
+        "antworten": ["Papiermüll", "Biomüll", "Restmüll", "Gelber Sack"],
+        "lösung": "Biomüll"
+    },
+    {
+        "frage": "Wohin gehört eine alte Zahnbürste?",
+        "antworten": ["Gelber Sack", "Restmüll", "Wertstoffhof", "Papiermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wohin gehört ein Papiersackerl mit Sandresten?",
+        "antworten": ["Papiermüll", "Restmüll", "Biomüll", "Gelber Sack"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wohin gehört ein alter Elektrobohrer?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Gelber Sack", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Wohin gehört ein Plastikblumentopf?",
+        "antworten": ["Biomüll", "Gelber Sack", "Restmüll", "Papiermüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Wohin gehört eine Blisterverpackung (Kunststoff/Aluminium)?",
+        "antworten": ["Papiermüll", "Gelber Sack", "Restmüll", "Biomüll"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Wohin gehört ein Teelichtbehälter aus Aluminium?",
+        "antworten": ["Gelber Sack", "Restmüll", "Sondermüll", "Glascontainer"],
+        "lösung": "Gelber Sack"
+    },
+    {
+        "frage": "Wohin gehört ein alter Autoreifen?",
+        "antworten": ["Restmüll", "Gelber Sack", "Sondermüll", "Wertstoffhof"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Was gehört NICHT in den Gelben Sack?",
+        "antworten": ["Leere Joghurtbecher", "Kunststoffspielzeug", "Konservendose", "Aluminiumfolie"],
+        "lösung": "Kunststoffspielzeug"
+    },
+    {
+        "frage": "Wohin gehört Grasschnitt aus dem Garten?",
+        "antworten": ["Papiermüll", "Biomüll", "Restmüll", "Gelber Sack"],
+        "lösung": "Biomüll"
+    },
+    {
+        "frage": "Wohin gehört Laub aus Bäumen?",
+        "antworten": ["Biomüll", "Papiermüll", "Restmüll", "Gelber Sack"],
+        "lösung": "Biomüll"
+    },
+    {
+        "frage": "Wohin gehört unbehandeltes Holz?",
+        "antworten": ["Restmüll", "Wertstoffhof", "Biomüll", "Papiermüll"],
+        "lösung": "Wertstoffhof"
+    },
+    {
+        "frage": "Wohin gehört ein Farbeimer mit Restfarbe?",
+        "antworten": ["Gelber Sack", "Restmüll", "Sondermüll", "Papiermüll"],
+        "lösung": "Sondermüll"
+    },
+    {
+        "frage": "Wohin gehört Asche aus dem Kamin?",
+        "antworten": ["Biomüll", "Restmüll", "Gelber Sack", "Sondermüll"],
+        "lösung": "Restmüll"
+    },
+    {
+        "frage": "Wie entsorgt man eine zerbrochene Energiesparlampe?",
+        "antworten": ["Restmüll", "Glascontainer", "Gelber Sack", "Sondermüll"],
+        "lösung": "Sondermüll"
+    }
+
+]

@@ -1,0 +1,527 @@
+/* Allgemeine Einstellungen */
+/*Ich habe viele Sachen wiederholend aufgebaut, weis das es einfacher und cleaner geht, aber das ist Code der 3 Monate alt ist. Sorry */
+html{
+  background-color: #0F6D4F;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0F6D4F, #1a3d36, #4caf88);
+  color: #e6f4ec;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(26, 61, 54, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6f4ec;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4FAD26;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: #e6f4ec;
+  cursor: pointer;
+  background-color: #123;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: auto;
+  height: auto;
+  background-color: rgb(17,34,51, 0.8);
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 20px;
+  transition: left 0.3s ease;
+  z-index: 10000;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  border-bottom-right-radius: 10px;
+}
+.sidebar p{
+  text-align: right;
+  font-size: 24px;
+}
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #e6f4ec;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  color: #4FAD26;
+}
+
+/*Responsive ab einer bestimmten Breite */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Hero-Bereich */
+@keyframes backgroundPulse {
+  0% { background-color: rgba(26, 61, 54, 0.6); }
+  50% { background-color: rgba(76, 175, 136, 0.7); }
+  100% { background-color: rgba(26, 61, 54, 0.6); }
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(26, 61, 54, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: backgroundPulse 5s infinite ease-in-out;
+}
+
+.hero h2, .hero p {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* CTA-Button */
+.cta-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: #4caf88;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #3d8a66;
+  transform: scale(1.05);
+}
+::selection{
+  background-color: #2A6047;
+  color: #41C376;
+}
+.erklärung{
+  background: linear-gradient(330deg, #0F6D4F, #1a3d36, #4caf88);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 1200px;
+  height: 400px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.erklärungcontainer{
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  overflow-y: auto;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.title {
+  display: flex;
+  justify-content: center;     /* horizontal */
+  align-items: center;         /* vertikal */
+  flex-wrap: wrap;
+  min-height: 10vh;           /* volle Höhe des Viewports */
+  font-size: 32px;
+  text-decoration: underline dashed green 4px;
+  text-align: center;          /* falls du mehrere Zeilen zentriert möchtest */
+}
+.sortierung{
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  overflow-y: auto;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+#headline {
+  scroll-margin-top: 80px; /* oder so viel Abstand wie du willst */
+  font-size: 48px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* QuickSort Styles */
+.quicksort{
+  background: linear-gradient(135deg, #0b8444, #4caf88);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  max-width: 75%;      /* statt fixer Breite */
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+
+  height: auto;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;   */
+  justify-content: center;
+}
+#suggestions {
+  min-height: 50px;
+  max-height: 200px;
+ 
+
+  background-color: #1a3d36;
+  font-size: 18px;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin-top: 1rem;
+
+  overflow-y: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#suggestions p{
+    text-align: center;
+    margin-top: 1rem;
+}
+#suggestions div{
+  background-color: #1a3d36;
+  border-bottom: 3px solid #4caf88;
+  cursor: pointer;
+} 
+.quicksort h2{
+  text-decoration: underline dotted #8DC119 3px;
+}
+.quicksort button{
+    height: 40px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #11B704;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(76, 175, 136, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 1rem;
+    align-self: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+#infotext,
+#infotext2,
+#infotext3{
+  background-color: #123;
+  border: #0F6D4F;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #B3B3B3;
+  left: 50%;
+  margin-top: 1rem;
+  padding: 2%;
+}
+.on{
+  display: block;
+}
+.off{
+  display: none;
+}
+.quicksort input{
+   height: 60px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #11B704;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(76, 175, 136, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 1rem;
+    align-self: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.quicksort input,
+.quicksort button,
+#output,
+#suggestions {
+  width: 100%;
+  max-width: 400px;   /* Begrenzung für große Displays */
+  box-sizing: border-box; /* verhindert Überlauf wegen Padding */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output{
+  margin-top: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+ 
+  background-color: #1a3d36;
+  font-size: 18px;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.infotext{
+  display: block;
+  font-size: 1rem;
+  color: #B3B3B3;
+  margin-bottom: 1rem; /* statt padding */
+}
+.Info-Frage{
+  display: none;
+  text-align: center;
+  left: 50%;
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .Info-Frage{
+    display: block;
+  }
+  .infotext{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .quicksort {
+    padding: 0.5rem;
+  }
+
+  .quicksort input,
+  .quicksort button,
+  #output,
+  #suggestions {
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  .quicksort h2 {
+    font-size: 20px;
+  }
+}
+.sortierung {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .sortierung {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* Open Food Facts API Styles */
+.OFC{
+  background: linear-gradient(135deg, #0b8444, #4caf88);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+
+  max-width: 75%;      /* statt fixer Breite */
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.OFC input,
+.OFC button,
+#result{
+  width: 100%;
+  max-width: 400px;   /* Begrenzung für große Displays */
+  box-sizing: border-box; /* verhindert Überlauf wegen Padding */
+  margin-left: auto;
+  margin-right: auto;
+}
+.OFC h2{
+  text-decoration: underline dotted #8DC119 3px;
+}
+.OFC button{
+    height: 40px;
+ 
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #11B704;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(76, 175, 136, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 1rem;
+    align-self: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.OFC input{
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #11B704;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(76, 175, 136, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 1rem;
+    align-self: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.infotext-OFC {
+  display: block;
+  font-size: 1rem;
+  color: #B3B3B3;
+  margin-bottom: 1rem; /* statt padding */
+}
+
+@media (max-width: 768px) {
+  .Info-Frage{
+    display: block;
+  }
+  .infotext-OFC{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .OFC {
+    padding: 0.5rem;
+  }
+
+  .OFC input,
+  .OFC button,
+  #result{
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  .OFC h2 {
+    font-size: 20px;
+  }
+}
+
+.infotext-OFC a{
+  text-decoration: none;
+  color: white;
+}
+.infotext-OFC a:hover{
+  text-decoration: underline #0F6D4F;
+  color: #0F6D4F;
+}
+#result{
+  margin-top: 1rem;
+  padding: 2rem;
+  text-decoration: underline overline dotted black 0.5px;
+}
+/* Der Footer */
+footer{
+  background-color: #1a3d36;
+  color: #B3B3B3;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+  margin-top: 1rem;
+}
+input{
+  accent-color: #43D780;
+  caret-color: #1A5633;
+}

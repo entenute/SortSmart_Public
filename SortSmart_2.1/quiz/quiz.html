@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tägliches Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="abzeichen.css">
+</head>
+<body>
+
+    <header class="header" id="headerline">
+        <h1>SortSmart Quiz</h1>
+        <nav class="nav-links">
+            <a href="/landing/index.html">Startseite</a>
+            <a href="/quiz/quiz.html">Quiz</a>
+            <a href="/tipps/tipps.html">Tipps</a>
+            <a href="/landing/index.html#headline">SortSmart</a>
+            <a href="/AI-Chat/AI-Chat.html">AI-Chat</a>
+        </nav>
+    </header>
+    
+    <main class="quiz-container" id="content">
+        <span id="Frage" class="Frage">Keine Frage geladen</span>
+        <div id="Antworten" class="buttons">
+            <button id="Antwort1" class="Antwort">Antwort 1</button>
+            <button id="Antwort2" class="Antwort">Antwort 2</button>
+            <button id="Antwort3" class="Antwort">Antwort 3</button>
+            <button id="Antwort4" class="Antwort">Antwort 4</button>
+        </div>
+
+        <span id="Lösung"></span>
+        <span id="score"></span>
+    </main>
+    <div id="countdown" class="countdown">
+      <p>Hier ist ein Timer</p>
+    </div>
+    <button id="openNav">Abzeichen ansehen</button>
+
+<nav id="menu">
+    <h2 id="headlinemenue">Abzeichen</h2>
+    <p>Hier steht dein Fortschritt im Quiz. Wenn die Card <span style="color: greenyellow;"><b>grün</b></span> ist hast du das Abzeichen. Wenn sie <span style="color: red;"><b>rot</b></span> ist hast du es noch nicht.<br>
+    <b>Wichitg </b>: Die Abzeichen werden Local im Browser gespeichert!</p>
+
+    <div class="card-container">
+  <div class="card" id="Abzeichen1">
+    <img src="/Abzeichen/Wochendurchhalter.webp" alt="Beispielbild 1" />
+    <h3>Wochendurchhalter</h3>
+    <p>Komme 7 Tage in folge auf diese Webseite.</p>
+  </div>
+
+  <div class="card" id="Abzeichen2">
+    <img src="/Abzeichen/Digitaler Dauerläufer.webp" alt="Beispielbild 2" />
+    <h3>Digitaler Dauerläufer</h3>
+    <p>Komme 30 Tage in folge auf diese Webseite.</p>
+  </div>
+
+  <div class="card" id="Abzeichen3">
+    <img src="/Abzeichen/Quiz anfänger.webp" alt="Beispielbild 3" />
+    <h3>Quiz-Anfänger</h3>
+    <p>Du musst insgesamt 7 Fragen richtig beantworten.</p>
+  </div>
+
+  <div class="card" id="Abzeichen4">
+    <img src="/Abzeichen/Logik Lehrling.webp" alt="Beispielbild 3" />
+    <h3>Logik-Lehrling</h3>
+    <p>Du musst insgesamt 10 Fragen richtig beantworten.</p>
+  </div>
+
+  <div class="card" id="Abzeichen5">
+    <img src="/Abzeichen/Denksportler.webp" alt="Beispielbild 3" />
+    <h3>Denksportler</h3>
+    <p>Du musst insgesamt 50 Fragen richtig beantworten.</p>
+  </div>
+
+  <div class="card" id="Abzeichen6">
+    <img src="/Abzeichen/Rätsel-meister.webp" alt="Beispielbild 3" />
+    <h3>Rätsel-Meister</h3>
+    <p>Du musst insgesamt 100 Fragen richtig beantworten.</p>
+  </div>
+
+  <div class="card" id="Abzeichen7">
+    <img src="/Abzeichen/Fehlerfrei.webp" alt="Beispielbild 3" />
+    <h3>Fehlerfrei</h3>
+    <p>Du musst insgesamt 10 Fragen hintereinander richtig beantworten.</p>
+  </div>
+
+  <div class="card" id="Abzeichen8">
+    <img src="/Abzeichen/Maschine.webp" alt="Beispielbild 3" />
+    <h3>Maschine</h3>
+    <p>Du musst insgesamt 30 Fragen hintereinander richtig beantworten.</p>
+  </div>
+
+</div>
+    <button id="closeNav" class="Abzeichenbutton">Zurück</button>
+</nav>
+    <script defer src="quiz.js"></script>
+    <script defer src="abzeichen.js"></script>
+</body>
+</html>

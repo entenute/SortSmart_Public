@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SortSmart</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <header class="header">
+    <h1>SortSmart</h1>
+    <!-- Navbar -->
+  <nav class="navbar">
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+    <div class="nav-links">
+      <a href="/quiz/quiz.html">Quiz</a>
+      <a href="#headline">SortSmart</a>
+      <a href="/tipps/tipps.html">Tipps</a>
+      <a href="/AI-Chat/AI-Chat.html">AI-Chat</a>
+    </div>
+  </nav>
+<!-- Sidebar fürs mobile Menü -->
+<div class="sidebar" id="sidebar">
+  <p onclick="toggleSidebar()">←</p>
+  <a href="/quiz/quiz.html">Quiz</a>
+  <a href="#headline">SortSmart</a>
+  <a href="/tipps/tipps.html">Tipps</a>
+  <a href="/AI-Chat/AI-Chat.html">AI-Chat</a>
+</div>
+  </header>
+
+  <main class="hero">
+    <h2>Intelligente Mülltrennung leicht gemacht</h2>
+    <p>Mit unserer KI erfährst du, wo dein Müll richtig entsorgt wird!</p>
+    <button class="cta-button" id="cta-button">Loslegen</button>
+  </main>
+<!--Kommt noch in der Zukunft-->
+  <section class="erklärungcontainer">
+  <div class="erklärung">
+    <h2>Warum ist dies so wichtig?</h2>
+    <span>In development</span>
+  </div>
+  <div class="erklärung">
+    <h2>Was wir in der Zukunft machen wollen:</h2>
+    <span>In development</span>
+  </div>
+  </section>
+
+  <nav class="title">
+    <h2 id="headline">Lass das Sortieren beginnen</h2>
+  </nav>
+
+  <section class="sortierung">
+    <!--die schnelle locale Sortierung-->
+    <div class="quicksort">
+      <h2>QuickSort</h2>
+      <input type="text" id="materialinput" placeholder="Müll eingeben">
+      <div id="suggestions"><p>Hier stehen Vorschläge aus der Datenbank</p></div>
+      <button onclick="searchMüll()">Suchen</button>
+      <p id="output">Bitte Müll eingeben</p>
+      <button class="Info-Frage" onclick="showinfo()">Was ist QuickSort?</button> <!--Der button soll später noch was machen-->
+      <p id="infotext" class="off"><b>QuickSort</b> ist unsere eigne Datenbanck. Wenn Sie was eingeben wird vergliechen ob es dies in der Datenbank gibt. <br>
+      Wenn ja, dann zeigen wir Ihnen an in welchen Müll Ihr Input kommt und wichtige Extrainformationen.</p>
+      <p class="infotext"><b>Was ist QuickSort?</b><br>
+      QuickSort ist unsere eigne Datenbanck. Wenn Sie was eingeben wird vergliechen ob es dies in der Datenbank gibt. <br>
+      Wenn ja, dann zeigen wir Ihnen an in welchen Müll Ihr Input kommt und wichtige Extrainformationen. 
+      </p>
+    </div>
+    <!--Der Open Food Facts API-->
+    <div class="OFC">
+      <h2>Open Food Facts API</h2>
+      <input type="text" id="brand" placeholder="Marke" required />
+      <input type="text" id="product" placeholder="Produktname" required />
+      <button type="button" onclick="fetchPackagingInfo()">Suchen</button>
+      <p id="result">Bitte Eingabe machen</p>
+      <button class="Info-Frage" onclick="showinfo2()">Was ist der Open Food Facts API?</button> <!--Der button soll später noch was machen-->
+      <p id="infotext2" class="off"><b><a href="https://world.openfoodfacts.org/">Open Food Facts</a></b> hat ganz viele daten über Essen, also auch deren Verpackung.<br>
+        Durch genau, Eingabe was für ein Produkt Sie, haben können wir dank deren APIs herausfinden <br>
+        aus was ihre Verpackung besteht und dann in welchen Müll sie kommt.
+      </p>
+      <p class="infotext-OFC"><b>Was ist der Open Food Facts API?</b><br>
+        <b><a href="https://world.openfoodfacts.org/">Open Food Facts</a></b> hat ganz viele daten über Essen, also auch deren Verpackung.<br>
+        Durch genau, Eingabe was für ein Produkt Sie, haben können wir dank deren APIs herausfinden <br>
+        aus was ihre Verpackung besteht und dann in welchen Müll sie kommt.
+      </p>
+    </div>
+    <!--Die Bilderkennungs-KI-->
+    <div class="SortSmart">
+      <span class="beta">Beta</span>
+      <h2>SortSmart</h2>
+      <!--Das ist die Bilderkennung-->
+      <button type="button" id="start-button" onclick="init()">Start</button>
+      <div id="webcam-container">
+        <img src="norway-7600584_1280.webp">
+      </div>
+      <div id="loading" class="loader"></div> <!-- Ladeanimation -->
+      <div id="label-container"></div>
+      <!--Das sind die Zusatzinfos-->
+      <button class="Info-Frage" onclick="showinfo3()">Was ist SortSmart?</button><!--Der button soll später noch was machen-->
+      <p id="infotext3" class="off"><b>SortSmart</b> ist eine Bilderkennung KI.<br>
+        Indem man eine Bild macht von seinem Abfall kann diese herausfinden in welchen Müll der Abfall gehört.
+      </p>
+      <p class="infotext-BKI"><b>Was ist SortSmart?</b><br>
+       <b>SortSmart</b> ist eine Bilderkennung KI.<br>
+        Indem man eine Bild macht von seinem Abfall kann diese herausfinden in welchen Müll der Abfall gehört.
+      </p>
+      <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+      <script src="script-BKI.js"></script>
+      <link rel="stylesheet" href="style-BKI.css">
+    </div>
+  </section>
+  <footer>
+    <p>Geben Sie Feedback per Discord an den User: @entenute</p>
+  </footer>
+  <script defer src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+#webcam-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 5;
+    width: 320px;
+    height: 240px;
+}
+#webcam-container canvas{
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+}
+#webcam-container::after, #webcam-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: conic-gradient(#A5D732, #19E1A0, #12B9B0, #0C817B, #03BE72, #A5D732);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 3;
+    padding: 5px;
+    border-radius: 10px;
+}
+#webcam-container::before{
+    filter: blur(1.5rem);
+    opacity: 2;
+}
+img{
+    width: 320px;
+    height: 240px;
+    z-index: 4;
+    border-radius: 10px;
+    position: absolute;
+}
+@media (max-width: 480px){
+    img, 
+    #webcam-container,
+    #webcam-container canvas{
+        width: 160px;
+        height: 120px;
+    }
+}
+#label-container div {
+    font-size: 1.2em;
+    margin: 5px;
+    color: #0adc06; /* Orange Farbe für Ergebnisse */
+}
+
+#loading {
+    display: none; /* Ladeanimation standardmäßig ausblenden */
+    margin: 20px auto;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Hellgrauer Hintergrundring */
+    border-top: 8px solid #0ac63f; /* Leuchtend orangefarbener Vordergrundring */
+    border-radius: 50%; /* Runde Form */
+    width: 50px; /* Breite */
+    height: 50px; /* Höhe */
+    animation: spin 1s linear infinite; /* Rotationseffekt */
+    margin: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.SortSmart{
+    background: linear-gradient(135deg, #0b8444, #4caf88);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+    max-width: 75%;      /* statt fixer Breite */
+    width: 100%;
+    height: auto;
+}
+.SortSmart button,
+#result-SS{
+  width: 100%;
+  max-width: 400px;   /* Begrenzung für große Displays */
+  box-sizing: border-box; /* verhindert Überlauf wegen Padding */
+  margin-left: auto;
+  margin-right: auto;
+}
+.SortSmart h2{
+  text-decoration: underline dotted #8DC119 3px;
+}
+.SortSmart button{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #11B704;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(76, 175, 136, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 1rem;
+    align-self: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.SortSmart button :hover{
+    background-color: #0b8444;
+}
+.infotext-BKI{
+  font-size: 1rem;
+  color: #B3B3B3;
+  margin-bottom: 1rem; /* statt padding */
+}
+#result-SS{
+  margin-top: 1rem;
+  padding: 2rem;
+  text-decoration: underline overline dotted black 0.5px;
+}
+
+@media (max-width: 768px) {
+  .Info-Frage{
+    display: block;
+  }
+  .infotext-BKI{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .SortSmart {
+    padding: 0.5rem;
+  }
+
+  .SortSmart input,
+  .SortSmart button,
+  #result-SS{
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  .SortSmart h2 {
+    font-size: 20px;
+  }
+}
+.beta{
+  font-size: 14px;
+  background:linear-gradient(170deg,#8D44AB,#84116C ,#BD199B);
+  border-radius: 10px;
+  border: 2px solid rgb(100,25,189);
+  padding: 3%;
+  width: 30px;
+  height: 10px;
+  text-align: center ;
+  box-shadow: rgb(0,0,0) 2px 2px 2px;
+}

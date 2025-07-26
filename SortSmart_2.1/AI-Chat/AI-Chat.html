@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Extra eigener Teil für den AI-Chat, da Puter sehr lange braucht zum laden-->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai-Chat</title>
+    <link rel="stylesheet" href="AI-Chat.css">
+    <script src="https://js.puter.com/v2/"></script>
+    <script defer src="script-infotext.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1>SortSmart Tipps</h1>
+        <nav class="nav-links">
+            <a href="/landing/index.html">Startseite</a>
+            <a href="/quiz/quiz.html">Quiz</a>
+            <a href="/tipps/tipps.html">Tipps</a>
+            <a href="/landing/index.html#headline">SortSmart</a>
+            <a href="/AI-Chat/AI-Chat.html">AI-Chat</a>
+        </nav>
+    </header>
+    <!--Das ist der AI-Chat build with Puter.js-->
+    <div class="AI-Chat">
+      <h2>AI-Chat</h2>
+        <div id="ai-loader" style="display: none;">
+        <div class="ai_loader_container">
+            <div class="ai_loader_div">
+                <div class="spinner"></div>
+                <h3 class="ai_loader_text">AI</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="chat-container">
+        <div id="messages"></div>
+        <div id="chat-input">
+            <input type="text" id="input-message" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+      <!--Das sind die Zusatzinfos-->
+      <button class="Info-Frage" onclick="showinfo()">Was ist der AI-Chat?</button><!--Der button soll später noch was machen-->
+      <p id="infotext" class="off"><b>Der AI-Chat</b> ist ein Chatbot bassierend auf Puter.js<br>
+        Hier können Nutzer Fragen an eine Chatbot stellen,<br> 
+        wenn sie immer noch nicht wissen, in welchen Müll Ihr Abfall kommt.</p>
+      <p class="infotext-AI"><b>Was ist der AI-Chat?</b><br>
+       <b>Der AI-Chat</b> ist ein Chatbot bassierend auf Puter.js<br>
+        Hier können Nutzer Fragen an eine Chatbot stellen,<br> 
+        wenn sie immer noch nicht wissen, in welchen Müll Ihr Abfall kommt.
+      </p>
+      <link rel="stylesheet" href="style-AI.css">
+      <link rel="stylesheet" href="style-AI-Chat.css">
+      <link rel="stylesheet" href="style-AI-loader.css">
+      <script src="script-AI-Chat.js"></script>
+    </div>
+</body>
+</html>
